@@ -1,0 +1,1137 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="_ds/modernist-72de46bf-6ac5-4a65-8a42-5c964b2dfe33/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js"></script>
+  <script src="js/support.js"></script>
+</head>
+
+<body>
+  <x-dc>
+    <helmet>
+      <title>Harsh Patel — Android Developer</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description"
+        content="Harsh Patel — Android Developer. Kotlin, Jetpack Compose, Firebase, MVVM, Clean Architecture.">
+      <script src="_ds/modernist-72de46bf-6ac5-4a65-8a42-5c964b2dfe33/_ds_bundle.js"></script>
+      <script src="js/image-slot.js"></script>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Geist:wght@300..700&family=Geist+Mono:wght@400;500&display=swap">
+    </helmet>
+
+    <div ref="{{ progressRef }}" class="page-div-1"></div>
+
+    <header class="header-header-1">
+      <div class="header-div-1">
+        <a href="#top" aria-label="Harsh Patel — home" class="header-a-1">
+          <svg data-logo="" viewBox="0 0 36 48" width="28" height="38" aria-hidden="true" class="header-svg-1">
+            <defs>
+              <linearGradient id="hl0a" x1="0" y1="0" x2="0.4" y2="1">
+                <stop offset="0" class="header-stop-1"></stop>
+                <stop offset="1" class="header-stop-2"></stop>
+              </linearGradient>
+              <linearGradient id="hl0m" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ffb36b"></stop>
+                <stop offset="1" stop-color="#ff5d5d"></stop>
+              </linearGradient>
+              <linearGradient id="hl0t" x1="0" y1="0" x2="0.3" y2="1">
+                <stop offset="0" stop-color="#6a5cff"></stop>
+                <stop offset="1" class="header-stop-3"></stop>
+              </linearGradient>
+              <linearGradient id="hl0r" x1="0" y1="0" x2="0.3" y2="1">
+                <stop offset="0" stop-color="#ff4d2e"></stop>
+                <stop offset="1" stop-color="#c41e3a"></stop>
+              </linearGradient>
+              <linearGradient id="hl0s" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#fff" stop-opacity="0.28"></stop>
+                <stop offset="0.5" stop-color="#fff" stop-opacity="0"></stop>
+              </linearGradient>
+            </defs>
+            <path d="M0 4 10 8v40L0 44z" fill="url(#hl0a)"></path>
+            <path d="M13 17.2 23 21.2v12.6L13 29.8z" fill="url(#hl0m)"></path>
+            <path d="M26 0 36 4v18.4L26 18.4z" fill="url(#hl0t)"></path>
+            <path d="M26 18.4 36 22.4V44L26 40z" fill="url(#hl0r)"></path>
+            <path d="M0 4 10 8v40L0 44zM26 0 36 4V44L26 40z" fill="url(#hl0s)" class="header-path-1"></path>
+          </svg>
+        </a>
+        <sc-if value="{{ isWide }}" hint-placeholder-val="{{ true }}">
+          <a href="#contact" data-mbtn="fill" class="header-a-2">
+            <span data-fill="" class="header-span-1"></span>
+            <span class="header-span-2">Let's talk</span>
+            <span class="header-span-3"><span class="header-span-4"><span data-arrow="x" class="header-span-5"><svg
+                    width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                    stroke-linecap="square">
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                  </svg><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2.4" stroke-linecap="square">
+                    <path d="M5 12h14"></path>
+                    <path d="m12 5 7 7-7 7"></path>
+                  </svg></span></span></span>
+          </a>
+        </sc-if>
+        <button type="button" onClick="{{ toggleMenu }}" aria-expanded="{{ menuOpen }}" aria-label="Open menu"
+          class="header-button-1">
+          <span>Menu</span>
+          <span class="header-span-6"><span class="header-span-7"></span><span class="header-span-8"></span></span>
+        </button>
+      </div>
+    </header>
+
+    <div role="dialog" aria-modal="true" aria-label="Site menu" aria-hidden="{{ menuHidden }}" class="menu-div-1"
+      style="clip-path:{{ menuClip }};pointer-events:{{ menuPe }}">
+      <div class="menu-div-2">
+        <a href="#top" onClick="{{ closeMenu }}" aria-label="Home" class="menu-a-1"><svg viewBox="0 0 36 48" width="25"
+            height="34" aria-hidden="true" class="menu-svg-1">
+            <defs>
+              <linearGradient id="hl1a" x1="0" y1="0" x2="0.4" y2="1">
+                <stop offset="0" stop-color="#c7c9ff"></stop>
+                <stop offset="1" stop-color="#8f94ff"></stop>
+              </linearGradient>
+              <linearGradient id="hl1m" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#ffb36b"></stop>
+                <stop offset="1" stop-color="#ff5d5d"></stop>
+              </linearGradient>
+              <linearGradient id="hl1t" x1="0" y1="0" x2="0.3" y2="1">
+                <stop offset="0" stop-color="#8f7dff"></stop>
+                <stop offset="1" stop-color="#6a5cff"></stop>
+              </linearGradient>
+              <linearGradient id="hl1r" x1="0" y1="0" x2="0.3" y2="1">
+                <stop offset="0" stop-color="#ff4d2e"></stop>
+                <stop offset="1" stop-color="#c41e3a"></stop>
+              </linearGradient>
+              <linearGradient id="hl1s" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0" stop-color="#fff" stop-opacity="0.28"></stop>
+                <stop offset="0.5" stop-color="#fff" stop-opacity="0"></stop>
+              </linearGradient>
+            </defs>
+            <path d="M0 4 10 8v40L0 44z" fill="url(#hl1a)"></path>
+            <path d="M13 17.2 23 21.2v12.6L13 29.8z" fill="url(#hl1m)"></path>
+            <path d="M26 0 36 4v18.4L26 18.4z" fill="url(#hl1t)"></path>
+            <path d="M26 18.4 36 22.4V44L26 40z" fill="url(#hl1r)"></path>
+            <path d="M0 4 10 8v40L0 44zM26 0 36 4V44L26 40z" fill="url(#hl1s)" class="menu-path-1"></path>
+          </svg></a>
+        <span class="menu-span-1">Index</span>
+        <button type="button" onClick="{{ closeMenu }}" aria-label="Close menu" class="menu-button-1">
+          <span>Close</span>
+          <span class="menu-span-2"><span class="menu-span-3"></span><span class="menu-span-4"></span></span>
+        </button>
+      </div>
+      <div class="menu-div-3">
+        <nav onMouseLeave="{{ menuLeave }}" class="menu-nav-1">
+          <sc-for list="{{ menuLinks }}" as="l" hint-placeholder-count="5">
+            <a href="{{ l.href }}" onClick="{{ closeMenu }}" onMouseEnter="{{ l.enter }}" class="menu-a-2">
+              <span class="menu-span-5"
+                style="transform:{{ l.tf }};opacity:{{ l.op }};transition:transform .9s cubic-bezier(.2,.8,.2,1) {{ l.dl }},opacity .4s">
+                <span class="menu-span-6">{{ l.num }}</span>
+                <span class="menu-span-7" style="color:{{ l.col }};transform:{{ l.shift }}">{{ l.label }}</span>
+              </span>
+            </a>
+          </sc-for>
+        </nav>
+        <div class="menu-div-4" style="opacity:{{ menuAsideOp }}">
+          <div class="menu-div-5">
+            <span class="menu-span-8">Get in touch</span>
+            <a href="mailto:harshbpatel0909@gmail.com" class="menu-a-3">harshbpatel0909@gmail.com</a>
+            <a href="tel:+14168414081" class="menu-a-4">416-841-4081</a>
+          </div>
+          <div class="menu-div-5">
+            <span class="menu-span-8">Elsewhere</span>
+            <div class="menu-div-6">
+              <sc-for list="{{ socials }}" as="so" hint-placeholder-count="3">
+                <a href="{{ so.href }}" target="_blank" rel="noopener" class="menu-a-5">{{ so.label }}</a>
+              </sc-for>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="menu-div-7">
+        <span>Harsh Patel — Android Developer</span><span>Esc to close</span>
+      </div>
+    </div>
+
+    <main id="top">
+
+      <section data-screen-label="Hero" onMouseMove="{{ heroMove }}" class="hero-section-1">
+        <div ref="{{ fieldRef }}" aria-hidden="true" class="hero-div-1"></div>
+
+        <h1 class="hero-h1-1">
+          <span class="hero-span-1"><span data-rise="0" class="hero-span-2"><span class="hero-span-3"><span
+                  class="hero-span-4" style="max-width:{{ helloEnW }};transform:{{ helloEnT }}">Hello</span><span
+                  class="hero-span-5"
+                  style="max-width:{{ helloFrW }};transform:{{ helloFrT }}">Bonjour</span></span>,&nbsp;I'm</span></span>
+          <span class="hero-span-6"><span data-rise="0" class="hero-span-7">Harsh</span></span>
+          <span class="hero-span-8"><span data-rise="1" class="hero-span-7">Patel<span
+                class="hero-span-9">.</span></span></span>
+        </h1>
+
+        <div class="hero-div-2">
+          <div data-reveal="" class="hero-div-3">
+            <p class="hero-p-1">Android developer crafting fast, clean <span class="hero-span-9">Kotlin</span> apps
+              people enjoy using.</p>
+            <div class="hero-div-4">
+              <a href="#work" data-mbtn="fill" class="hero-a-1">
+                <span data-fill="" class="hero-span-10"></span>
+                <span class="hero-span-11">View My Work</span>
+                <span class="hero-span-12"><span class="hero-span-13"><span data-arrow="y" class="hero-span-14"><svg
+                        width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"
+                        stroke-linecap="square">
+                        <path d="M12 5v14"></path>
+                        <path d="m19 12-7 7-7-7"></path>
+                      </svg><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.4" stroke-linecap="square">
+                        <path d="M12 5v14"></path>
+                        <path d="m19 12-7 7-7-7"></path>
+                      </svg></span></span></span>
+              </a>
+              <a href="#contact" class="hero-a-2">Let's talk <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.4" stroke-linecap="square">
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path>
+                </svg></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <sc-if value="{{ showMarquee }}" hint-placeholder-val="{{ true }}">
+        <div class="hero-div-5">{{ marquee }}</div>
+      </sc-if>
+
+      <section id="about" data-screen-label="About" class="about-section-1">
+        <div class="about-div-1">
+          <div class="about-div-2">(01) About</div>
+          <h2 data-reveal="" class="about-h2-1">I build Android apps that feel <span
+              class="about-span-1">effortless</span> and stay reliable as they grow.</h2>
+          <p data-reveal="" class="about-p-1">Three years of professional Android development with Kotlin, Jetpack
+            Compose and MVVM. I care about the details users notice and the architecture they never see.</p>
+        </div>
+
+        <div data-reveal="" class="about-div-3">
+          <sc-for list="{{ aboutPillars }}" as="p" hint-placeholder-count="4">
+            <div class="about-div-4">
+              <span class="about-span-2">
+                <span class="about-span-3"><svg width="22" height="22" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-width="2" stroke-linecap="square" stroke-linejoin="miter">
+                    <path d="{{ p.d }}"></path>
+                  </svg></span>
+                <span class="about-span-4">{{ p.num }}</span>
+              </span>
+              <span class="about-span-5">{{ p.title }}</span>
+              <span class="about-span-6">{{ p.body }}</span>
+            </div>
+          </sc-for>
+        </div>
+
+        <div class="about-div-5">
+          <sc-for list="{{ stats }}" as="s" hint-placeholder-count="4">
+            <div ref="{{ s.ref }}" class="about-div-6">
+              <div class="about-div-7">{{ s.display }}</div>
+              <div class="about-div-8"><span class="about-span-7"></span>{{ s.label }}</div>
+            </div>
+          </sc-for>
+        </div>
+      </section>
+
+      <section id="experience" data-screen-label="Experience" class="experience-section-1">
+        <div aria-hidden="true" class="experience-div-1"></div>
+        <div class="experience-div-2">
+          <div class="experience-div-3">
+            <div class="experience-div-4"><span class="experience-span-1"></span>(02) Professional experience</div>
+            <h2 data-reveal="" class="experience-h2-1">Shipped to <span class="experience-span-2">production.</span>
+            </h2>
+            <p class="experience-p-1">Jun 2021 – Aug 2025. Four years across three roles.</p>
+          </div>
+          <div class="experience-div-5">
+            <sc-for list="{{ expStats }}" as="st" hint-placeholder-count="4">
+              <div class="experience-div-6"><span class="experience-span-3">{{ st.n }}</span><span
+                  class="experience-span-4">{{ st.l }}</span></div>
+            </sc-for>
+          </div>
+        </div>
+        <div class="experience-div-7">
+          <div class="experience-div-8">
+            <sc-for list="{{ expBars }}" as="br" hint-placeholder-count="3">
+              <button type="button" onClick="{{ br.pick }}" aria-label="{{ br.label }}" title="{{ br.label }}"
+                class="experience-button-1"
+                style="left:{{ br.left }};width:{{ br.w }};background:{{ br.bg }};box-shadow:{{ br.sh }}"></button>
+            </sc-for>
+          </div>
+          <div class="experience-div-9">
+            <sc-for list="{{ expTicks }}" as="tk" hint-placeholder-count="5">
+              <span class="experience-span-5" style="left:{{ tk.left }};transform:translateX({{ tk.tx }})">{{ tk.y
+                }}</span>
+            </sc-for>
+          </div>
+        </div>
+        <div class="experience-div-10">
+          <div role="tablist" aria-label="Roles" class="experience-div-11">
+            <span aria-hidden="true" class="experience-span-6"></span>
+            <sc-for list="{{ jobs }}" as="j" hint-placeholder-count="3">
+              <button type="button" role="tab" aria-selected="{{ j.open }}" onClick="{{ j.toggle }}"
+                class="experience-button-2" style="border:1px solid {{ j.bd }};background:{{ j.bg }}">
+                <span class="experience-span-7" style="border:2px solid {{ j.dot }};box-shadow:{{ j.dotSh }}"><span
+                    class="experience-span-8" style="background:{{ j.dot }}"></span></span>
+                <span class="experience-span-9">
+                  <span class="experience-span-10">{{ j.dates }}<sc-if value="{{ j.latest }}"
+                      hint-placeholder-val="{{ false }}"><span class="experience-span-11">Latest</span></sc-if></span>
+                  <span class="experience-span-12" style="color:{{ j.fg }}">{{ j.role }}</span>
+                  <span class="experience-span-13">{{ j.company }} · {{ j.dur }}</span>
+                </span>
+              </button>
+            </sc-for>
+          </div>
+          <div class="experience-div-12">
+            <div class="experience-div-13">
+              <span class="experience-span-14"><span class="experience-span-15"></span><span
+                  class="experience-span-16"></span><span class="experience-span-17"></span></span>
+              <div class="experience-div-14">
+                <sc-for list="{{ jobs }}" as="j" hint-placeholder-count="3">
+                  <button type="button" onClick="{{ j.toggle }}" class="experience-button-3"
+                    style="color:{{ j.tabFg }};background:{{ j.tabBg }}">{{ j.file }}</button>
+                </sc-for>
+              </div>
+            </div>
+            <div ref="{{ expPanelRef }}" class="experience-div-15">
+              <div class="experience-div-16">
+                <div class="experience-div-17">
+                  <span class="experience-span-18">{{ ej.mono }}</span>
+                  <span class="experience-span-9"><span class="experience-span-19">{{ ej.role }}</span><span
+                      class="experience-span-20">{{ ej.company }}</span></span>
+                </div>
+                <div class="experience-div-18">
+                  <span class="experience-span-21">{{ ej.place }}</span>
+                  <span class="experience-span-22">{{ ej.dates }}</span>
+                </div>
+              </div>
+              <div class="experience-div-19">
+                <sc-for list="{{ ej.kpis }}" as="kp" hint-placeholder-count="4">
+                  <div class="experience-div-20"><span class="experience-span-23">{{ kp.n }}</span><span
+                      class="experience-span-24">{{ kp.l }}</span></div>
+                </sc-for>
+              </div>
+              <div class="experience-div-21">
+                <div class="experience-div-22">{{ ej.note }}<span class="experience-span-25"></span></div>
+                <sc-for list="{{ ej.points }}" as="pt" hint-placeholder-count="6">
+                  <div class="experience-div-23">
+                    <span class="experience-span-26">{{ pt.n }}</span>
+                    <span class="experience-span-27"><sc-for list="{{ pt.segs }}" as="sg"
+                        hint-placeholder-count="1"><span style="color:{{ sg.c }};font-weight:{{ sg.w }}">{{ sg.t
+                          }}</span></sc-for></span>
+                  </div>
+                </sc-for>
+              </div>
+              <div class="experience-div-18">
+                <sc-for list="{{ ej.stack }}" as="tk" hint-placeholder-count="8"><span class="experience-span-28">{{ tk
+                    }}</span></sc-for>
+              </div>
+            </div>
+            <div class="experience-div-24">
+              <span class="experience-span-29"><span class="experience-span-30"></span>{{ ej.status }}</span>
+              <span class="experience-span-31"><button type="button" onClick="{{ expPrev }}" aria-label="Previous role"
+                  class="experience-button-4">←</button>{{ ej.pos }}<button type="button" onClick="{{ expNext }}"
+                  aria-label="Next role" class="experience-button-4">→</button></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="work" data-screen-label="Work" class="work-section-1">
+        <div aria-hidden="true" class="work-div-1"></div>
+        <div class="work-div-2">
+          <div class="work-div-3">
+            <div class="work-div-4"><span class="work-span-1"></span>(03) Key projects</div>
+            <h2 data-reveal="" class="work-h2-1">Selected <span class="work-span-2">work.</span></h2>
+          </div>
+          <p class="work-p-1">Four projects across Android, AI and full-stack web.</p>
+        </div>
+        <div class="work-div-5">
+          <div class="work-div-6">
+            <article onPointerMove="{{ projGlow }}" class="work-article-1">
+              <span aria-hidden="true" class="work-span-3">01</span>
+              <div class="work-div-7">
+                <span class="work-span-4"><img src="assets/noteapp-icon.png" alt="NoteApp Aurora icon"
+                    class="work-img-1"></span>
+                <span class="work-span-5"><span class="work-span-6"></span>Latest</span>
+              </div>
+              <div class="work-div-8">
+                <span class="work-span-7">Android · AI</span>
+                <h3 class="work-h3-1">NoteApp Aurora</h3>
+                <p class="work-p-2">AI-powered notes app with Gemini. Summarize, fix grammar and translate,
+                  offline-first.</p>
+              </div>
+              <div class="work-div-9"><span class="work-span-8">Kotlin</span><span class="work-span-8">Jetpack
+                  Compose</span><span class="work-span-8">Gemini API</span><span class="work-span-8">Room</span></div>
+              <div class="work-div-10">
+                <span>Solo build</span>
+                <a href="https://github.com/harshpatel0909/NoteApp" target="_blank" rel="noopener"
+                  class="work-a-1">GitHub ↗</a>
+              </div>
+            </article>
+            <article onPointerMove="{{ projGlow }}" class="work-article-1">
+              <span aria-hidden="true" class="work-span-3">02</span>
+              <div class="work-div-7">
+                <span class="work-span-9">VA</span>
+
+              </div>
+              <div class="work-div-8">
+                <span class="work-span-7">Full-stack · AI</span>
+                <h3 class="work-h3-1">Vision AI</h3>
+                <p class="work-p-2">AI career coach that generates cover letters, industry reports and analytics.</p>
+              </div>
+              <div class="work-div-9"><span class="work-span-8">Next.js</span><span
+                  class="work-span-8">Node.js</span><span class="work-span-8">PostgreSQL</span><span
+                  class="work-span-8">Prisma</span></div>
+              <div class="work-div-10">
+                <span>Product Owner · Capstone</span>
+                <span class="work-span-10">02 / 04</span>
+              </div>
+            </article>
+          </div>
+          <div class="work-div-6">
+            <article onPointerMove="{{ projGlow }}" class="work-article-1">
+              <span aria-hidden="true" class="work-span-3">03</span>
+              <div class="work-div-7">
+                <span class="work-span-11">WS</span>
+
+              </div>
+              <div class="work-div-8">
+                <span class="work-span-7">Android</span>
+                <h3 class="work-h3-1">WomenStaySafe</h3>
+                <p class="work-p-2">Emergency app for fast contact with services and image/video evidence sharing.</p>
+              </div>
+              <div class="work-div-9"><span class="work-span-8">Java</span><span class="work-span-8">Android
+                  SDK</span><span class="work-span-8">XML</span></div>
+              <div class="work-div-10">
+                <span>Android Developer</span>
+                <span class="work-span-10">03 / 04</span>
+              </div>
+            </article>
+            <article onPointerMove="{{ projGlow }}" class="work-article-1">
+              <span aria-hidden="true" class="work-span-3">04</span>
+              <div class="work-div-7">
+                <span class="work-span-12">BH</span>
+
+              </div>
+              <div class="work-div-8">
+                <span class="work-span-7">Android</span>
+                <h3 class="work-h3-1">Brand Hub</h3>
+                <p class="work-p-2">Auto-generates event, festival and company cards for daily social posts.</p>
+              </div>
+              <div class="work-div-9"><span class="work-span-8">Java</span><span class="work-span-8">Android
+                  SDK</span><span class="work-span-8">XML</span></div>
+              <div class="work-div-10">
+                <span>Android Developer</span>
+                <span class="work-span-10">04 / 04</span>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" data-screen-label="Skills" class="skills-section-1">
+        <div aria-hidden="true" class="skills-div-1"></div>
+        <div class="skills-div-2">
+          <div class="skills-div-3">
+            <div class="skills-div-4">
+              <span class="skills-span-1"></span>(04) Technical skills
+            </div>
+            <h2 data-reveal="" class="skills-h2-1">The periodic table <span class="skills-span-2">of my stack.</span>
+            </h2>
+            <p class="skills-p-1">{{ skillCount }}</p>
+          </div>
+          <div role="tablist" class="skills-div-5">
+            <sc-for list="{{ skillTabs }}" as="t" hint-placeholder-count="7">
+              <button type="button" role="tab" aria-selected="{{ t.active }}" onClick="{{ t.pick }}"
+                class="skills-button-1" style="background:{{ t.bg }};color:{{ t.fg }}">
+                <span class="skills-span-3" style="background:{{ t.sw }}"></span>{{ t.label }}<span
+                  class="skills-span-4">{{ t.count }}</span>
+              </button>
+            </sc-for>
+          </div>
+        </div>
+        <div class="skills-div-6">
+          <div ref="{{ gridRef }}" onMouseMove="{{ gridMove }}" onMouseLeave="{{ tableLeave }}" class="skills-div-7">
+            <sc-for list="{{ skills }}" as="s" hint-placeholder-count="40">
+              <button type="button" onClick="{{ s.pick }}" onMouseEnter="{{ s.hover }}" onFocus="{{ s.hover }}"
+                aria-pressed="{{ s.on }}" title="{{ s.name }}" class="skills-button-2"
+                style="background-image:radial-gradient(160px circle at var(--mx) var(--my),var(--sk-spotfill),transparent 70%),linear-gradient({{ s.fill }},{{ s.fill }}),radial-gradient(200px circle at var(--mx) var(--my),var(--sk-spot),var(--sk-border) 70%);opacity:{{ s.op }};transform:{{ s.tf }}">
+                <sc-if value="{{ s.on }}" hint-placeholder-val="{{ false }}">
+                  <span aria-hidden="true" class="skills-span-5"></span>
+                </sc-if>
+                <span class="skills-span-6"><span>{{ s.num }}</span><span class="skills-span-7"
+                    style="background:{{ s.dot }}"></span></span>
+                <span class="skills-span-8">
+                  <sc-if value="{{ s.slug }}" hint-placeholder-val="{{ true }}">
+                    <span aria-hidden="true" class="skills-span-9"
+                      style="background:{{ s.img }} center/contain no-repeat;opacity:{{ s.iop }}"></span>
+                  </sc-if>
+                  <sc-if value="{{ s.noSlug }}" hint-placeholder-val="{{ false }}">
+                    <span class="skills-span-10" style="color:{{ s.symCol }}">{{ s.sym }}</span>
+                  </sc-if>
+                </span>
+                <span class="skills-span-11" style="color:{{ s.nameCol }}">{{ s.short }}</span>
+              </button>
+            </sc-for>
+          </div>
+          <aside class="skills-aside-1">
+            <div class="skills-div-8">
+              <div class="skills-div-9">
+                <span class="skills-span-12"><span class="skills-span-13" style="background:{{ cur.dot }}"></span>{{
+                  cur.fam }}</span>
+                <span class="skills-span-14">{{ cur.num }} / {{ cur.total }}</span>
+              </div>
+              <div class="skills-div-10">
+                <span aria-hidden="true" class="skills-span-15" style="background:{{ cur.dot }}"></span>
+                <span aria-hidden="true" class="skills-span-16"></span>
+                <div ref="{{ iconRef }}" class="skills-div-11">
+                  <sc-if value="{{ cur.hasIcon }}" hint-placeholder-val="{{ true }}">
+                    <div role="img" aria-label="{{ cur.alt }}" class="skills-div-12"
+                      style="background:{{ cur.bgImg }} center/contain no-repeat"></div>
+                  </sc-if>
+                  <sc-if value="{{ cur.noIcon }}" hint-placeholder-val="{{ false }}">
+                    <div class="skills-div-13">
+                      <span class="skills-span-14">{{ cur.num }}</span>
+                      <span class="skills-span-17">{{ cur.sym }}</span>
+                    </div>
+                  </sc-if>
+                </div>
+              </div>
+              <div class="skills-div-14">
+                <span class="skills-span-18">{{ cur.name }}</span>
+                <div class="skills-div-15">
+                  <span class="skills-span-19">{{ cur.hint }}</span>
+                  <div class="skills-div-16">
+                    <button type="button" onClick="{{ prevSkill }}" aria-label="Previous skill"
+                      class="skills-button-3"><svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2">
+                        <path d="M15 18l-6-6 6-6"></path>
+                      </svg></button>
+                    <button type="button" onClick="{{ nextSkill }}" aria-label="Next skill" class="skills-button-3"><svg
+                        width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M9 18l6-6-6-6"></path>
+                      </svg></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="services" data-screen-label="Services" class="services-section-1">
+        <div class="services-div-1">
+          <div class="services-div-2">
+            <div class="services-div-3">(05) Services</div>
+            <h2 data-reveal="" class="services-h2-1">How I can <span class="services-span-1">help.</span></h2>
+          </div>
+          <p class="services-p-1">Seven ways I add value to a product team, from first commit to Play Store release.</p>
+        </div>
+
+        <div onMouseLeave="{{ svcLeave }}" class="services-div-4">
+          <div role="list" class="services-div-5">
+            <sc-for list="{{ services }}" as="s" hint-placeholder-count="7">
+              <button type="button" role="listitem" onMouseEnter="{{ s.pick }}" onFocus="{{ s.pick }}"
+                onClick="{{ s.pick }}" aria-current="{{ s.on }}" class="services-button-1"
+                style="padding:22px {{ s.pad }} 22px {{ s.pad }};background:{{ s.bg }};color:{{ s.fg }}">
+                <span class="services-span-2" style="color:{{ s.numCol }}">{{ s.num }}</span>
+                <span class="services-span-3">{{ s.title }}</span>
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="square" class="services-svg-1" style="transform:{{ s.rot }}">
+                  <path d="M5 12h14"></path>
+                  <path d="m12 5 7 7-7 7"></path>
+                </svg>
+              </button>
+            </sc-for>
+          </div>
+
+          <div class="services-div-6">
+            <div class="services-div-7">
+              <span ref="{{ svcNumRef }}" class="services-span-4">{{ svc.num }}</span>
+              <span class="services-span-5">{{ svc.num }} / 07</span>
+            </div>
+            <div class="services-div-8">
+              <h3 class="services-h3-1">{{ svc.title }}</h3>
+              <p class="services-p-2">{{ svc.desc }}</p>
+            </div>
+            <div class="services-div-9">
+              <sc-for list="{{ svc.tags }}" as="t" hint-placeholder-count="3">
+                <span class="services-span-6">{{ t }}</span>
+              </sc-for>
+            </div>
+            <a href="#contact" onClick="{{ svcAsk }}" class="services-a-1">Discuss this service <svg width="18"
+                height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                stroke-linecap="square">
+                <path d="M7 7h10v10"></path>
+                <path d="M7 17 17 7"></path>
+              </svg></a>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" data-screen-label="Education" class="education-section-1">
+        <div aria-hidden="true" class="education-div-1"></div>
+        <div class="education-div-2">
+          <div class="education-div-3">
+            <div class="education-div-4"><span class="education-span-1"></span>(06) Education</div>
+            <h2 data-reveal="" class="education-h2-1">Learned with <span class="education-span-2">distinction.</span>
+            </h2>
+          </div>
+          <div class="education-div-5">
+            <div class="education-div-6"><span class="education-span-3">2</span><span
+                class="education-span-4">Countries</span></div>
+            <div class="education-div-6"><span class="education-span-3">2</span><span
+                class="education-span-4">Honours</span></div>
+          </div>
+        </div>
+        <div class="education-div-7">
+          <div class="education-div-8"><span class="education-span-5"><span class="education-span-6"></span><span
+                class="education-span-7">IN</span></span><span class="education-span-8">2018 · B.E. begins</span></div>
+          <span class="education-span-9"></span>
+          <div class="education-div-8"><span class="education-span-5"><span class="education-span-10"></span><span
+                class="education-span-7">IN</span></span><span class="education-span-8">2022 · Graduated</span></div>
+          <span class="education-span-11"></span>
+          <div class="education-div-8"><span class="education-span-5"><span class="education-span-6"></span><span
+                class="education-span-7">CA</span></span><span class="education-span-8">2024 · Fanshawe</span></div>
+          <span class="education-span-9"></span>
+          <div class="education-div-8"><span class="education-span-5"><span class="education-span-10"></span><span
+                class="education-span-7">CA</span></span><span class="education-span-8">2025 · Dean's Honour Roll</span>
+          </div>
+        </div>
+        <div class="education-div-9">
+          <article data-reveal="" onPointerMove="{{ projGlow }}" class="education-article-1">
+            <span aria-hidden="true" class="education-span-12">IN</span>
+            <div class="education-div-10">
+              <div class="education-div-11">
+                <span class="education-span-13"><img src="assets/apollo-logo.png"
+                    alt="Apollo Institute of Engineering and Technology logo" class="education-img-1"></span>
+                <span class="education-span-14"><span class="education-span-15">Apollo Institute of Engineering and
+                    Technology</span><span class="education-span-16">Gujarat, India</span></span>
+              </div>
+              <span class="education-span-17">Jul 2018 – May 2022</span>
+            </div>
+            <div class="education-div-12">
+              <div class="education-div-13">
+                <span class="education-span-4">Bachelor of Engineering (B.E.)</span>
+                <span class="education-span-18">Information Technology</span>
+                <span class="education-span-19"><span class="education-span-20">★</span>First Class with
+                  Distinction</span>
+              </div>
+              <div class="education-div-14">
+                <div class="education-div-15"><span class="education-span-21">8.54</span><span
+                    class="education-span-22">/ 10 GPA</span></div>
+              </div>
+            </div>
+            <div class="education-div-16"><span class="education-span-23"><span
+                  class="education-span-24">✓</span>Gujarat Technological University</span><span
+                class="education-span-23"><span class="education-span-24">✓</span>WES verified · Canadian
+                equivalent</span></div>
+          </article>
+          <article data-reveal="" onPointerMove="{{ projGlow }}" class="education-article-1">
+            <span aria-hidden="true" class="education-span-12">CA</span>
+            <div class="education-div-10">
+              <div class="education-div-11">
+                <span class="education-span-13"><span role="img" aria-label="Fanshawe College logo"
+                    class="education-span-25"></span></span>
+                <span class="education-span-14"><span class="education-span-15">Fanshawe College</span><span
+                    class="education-span-16">Co-op Endorsed Graduate Program</span></span>
+              </div>
+              <span class="education-span-17">Apr 2024 – Aug 2025</span>
+            </div>
+            <div class="education-div-12">
+              <div class="education-div-13">
+                <span class="education-span-4">Ontario College Graduate Certificate</span>
+                <span class="education-span-18">Mobile Application Development</span>
+                <span class="education-span-19"><span class="education-span-20">★</span>Dean's Honour Roll</span>
+              </div>
+              <div class="education-div-17">
+                <div class="education-div-15"><span class="education-span-21">3.96</span><span
+                    class="education-span-22">/ 4.2 GPA</span></div>
+              </div>
+            </div>
+            <div class="education-div-16"><span class="education-span-23"><span class="education-span-24">✓</span>Co-op
+                Endorsed</span><span class="education-span-23"><span class="education-span-24">✓</span>Rising Leaders
+                award</span></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="certifications" data-screen-label="Certifications" class="certifications-section-1">
+        <div aria-hidden="true" class="certifications-div-1"></div>
+        <div class="certifications-div-2">
+          <div class="certifications-div-3">
+            <div class="certifications-div-4"><span class="certifications-span-1"></span>(07) Credential vault</div>
+            <h2 data-reveal="" class="certifications-h2-1">Proof of <span class="certifications-span-2">craft.</span>
+            </h2>
+            <p class="certifications-p-1">Each credential, and what it lets me do on your team.</p>
+          </div>
+          <div class="certifications-div-5">
+            <sc-for list="{{ certStats }}" as="st" hint-placeholder-count="3">
+              <div class="certifications-div-6"><span class="certifications-span-3">{{ st.n }}</span><span
+                  class="certifications-span-4">{{ st.l }}</span></div>
+            </sc-for>
+          </div>
+        </div>
+        <div class="certifications-div-7">
+          <div class="certifications-div-8"><span>Spread by domain · tap to filter</span><button type="button"
+              onClick="{{ certShowAll }}" class="certifications-button-1" style="color:{{ certAllC }}">All 17</button>
+          </div>
+          <div class="certifications-div-9">
+            <sc-for list="{{ certDomains }}" as="dm" hint-placeholder-count="5">
+              <button type="button" onClick="{{ dm.pick }}" aria-pressed="{{ dm.active }}"
+                class="certifications-button-2" style="flex:{{ dm.grow }} 1 0;opacity:{{ dm.op }}">
+                <span class="certifications-span-5"
+                  style="background:{{ dm.sw }};box-shadow:0 0 18px {{ dm.sw }}"></span>
+                <span class="certifications-span-6">{{ dm.label }}<span class="certifications-span-7">{{ dm.n
+                    }}</span></span>
+              </button>
+            </sc-for>
+          </div>
+        </div>
+        <div onMouseEnter="{{ certHoldOn }}" onMouseLeave="{{ certHoldOff }}" class="certifications-div-10">
+          <div id="cert-stage" class="certifications-div-11">
+            <div ref="{{ certCardRef }}" onPointerMove="{{ certMove }}" onPointerLeave="{{ certLeave }}"
+              class="certifications-div-12">
+              <div class="certifications-div-13">
+                <div aria-hidden="true" class="certifications-div-14"></div>
+                <div aria-hidden="true" class="certifications-div-15"></div>
+                <div aria-hidden="true" class="certifications-div-16"></div>
+                <div ref="{{ certFaceRef }}" class="certifications-div-17">
+                  <div class="certifications-div-18">
+                    <span class="certifications-span-8">
+                      <span class="certifications-span-9" style="background:{{ cs.tile }}">
+                        <sc-if value="{{ cs.hasLogo }}" hint-placeholder-val="{{ true }}"><span role="img"
+                            aria-label="{{ cs.issuer }}" class="certifications-span-10"
+                            style="background:{{ cs.logo }} center/contain no-repeat"></span></sc-if>
+                        <sc-if value="{{ cs.noLogo }}" hint-placeholder-val="{{ false }}"><span
+                            class="certifications-span-11">{{ cs.mono }}</span></sc-if>
+                      </span>
+                      <span class="certifications-span-12">{{ cs.issuer }}</span>
+                    </span>
+                    <span class="certifications-span-13"><span class="certifications-span-14"
+                        style="background:{{ cs.sw }};box-shadow:0 0 10px {{ cs.sw }}"></span>{{ cs.cat }}</span>
+                  </div>
+                  <div class="certifications-div-19">
+                    <span class="certifications-span-15">{{ cs.name }}</span>
+                    <sc-if value="{{ cs.hasStat }}" hint-placeholder-val="{{ false }}">
+                      <span class="certifications-span-16"><span class="certifications-span-17">{{ cs.statN
+                          }}</span><span class="certifications-span-18">{{ cs.statL }}</span></span>
+                    </sc-if>
+                  </div>
+                  <div class="certifications-div-20">
+                    <span class="certifications-span-19"><span class="certifications-span-20">{{ cs.idLabel
+                        }}</span><span class="certifications-span-21">{{ cs.idShort }}</span></span>
+                    <span class="certifications-span-22"><span class="certifications-span-23">✓</span>Verified</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="certifications-div-21">
+              <div class="certifications-div-22">{{ certProg }}</div>
+              <div class="certifications-span-4">What it unlocks</div>
+              <div class="certifications-div-23">
+                <sc-for list="{{ cs.gains }}" as="g" hint-placeholder-count="3">
+                  <div class="certifications-div-24"><span class="certifications-span-24">{{ g.n }}</span><span
+                      class="certifications-span-25">{{ g.t }}</span></div>
+                </sc-for>
+              </div>
+              <sc-if value="{{ cs.multi }}" hint-placeholder-val="{{ false }}">
+                <div class="certifications-div-25">
+                  <sc-for list="{{ cs.ids }}" as="cid" hint-placeholder-count="3">
+                    <div class="certifications-div-26"><span class="certifications-span-26"><span
+                          class="certifications-span-27">{{ cid.label }}</span><span class="certifications-span-28">{{
+                          cid.id }}</span></span><button type="button" onClick="{{ cid.copy }}"
+                        class="certifications-button-3">{{ cid.btn }}</button></div>
+                  </sc-for>
+                </div>
+              </sc-if>
+              <div class="certifications-div-27">
+                <sc-for list="{{ cs.skills }}" as="sk" hint-placeholder-count="3"><span
+                    class="certifications-span-29">{{ sk }}</span></sc-for>
+              </div>
+              <div class="certifications-div-28">
+                <div class="certifications-div-29">
+                  <a href="https://www.linkedin.com/in/harsh-patel0909/details/certifications/" target="_blank"
+                    rel="noopener" class="certifications-a-1">Verify ↗</a>
+                  <sc-if value="{{ cs.single }}" hint-placeholder-val="{{ true }}"><button type="button"
+                      onClick="{{ cs.copy }}" class="certifications-button-4">{{ cs.copyLabel }}</button></sc-if>
+                </div>
+                <div class="certifications-div-30">
+                  <span class="certifications-span-30">{{ cs.pos }}</span>
+                  <button type="button" onClick="{{ certPrev }}" aria-label="Previous certificate"
+                    class="certifications-button-5">←</button>
+                  <button type="button" onClick="{{ certNext }}" aria-label="Next certificate"
+                    class="certifications-button-5">→</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="certifications-div-31">
+            <sc-for list="{{ certGroups }}" as="gr" hint-placeholder-count="5">
+              <div class="certifications-div-32">
+                <div class="certifications-div-33"><span class="certifications-span-31"
+                    style="background:{{ gr.sw }};box-shadow:0 0 10px {{ gr.sw }}"></span>{{ gr.label }}<span
+                    class="certifications-span-32"></span><span class="certifications-span-33">{{ gr.n }}</span></div>
+                <sc-for list="{{ gr.rows }}" as="r" hint-placeholder-count="3">
+                  <button type="button" onClick="{{ r.pick }}" onMouseEnter="{{ r.hover }}"
+                    aria-pressed="{{ r.active }}" class="certifications-button-6"
+                    style="border:1px solid {{ r.bd }};background:{{ r.bg }};box-shadow:{{ r.sh }}">
+                    <span class="certifications-span-34" style="color:{{ r.numC }}">{{ r.num }}</span>
+                    <span class="certifications-span-35" style="background:{{ r.tile }}">
+                      <sc-if value="{{ r.hasLogo }}" hint-placeholder-val="{{ true }}"><span role="img"
+                          aria-label="{{ r.issuer }}" class="certifications-span-36"
+                          style="background:{{ r.logo }} center/contain no-repeat"></span></sc-if>
+                      <sc-if value="{{ r.noLogo }}" hint-placeholder-val="{{ false }}"><span
+                          class="certifications-span-37">{{ r.mono }}</span></sc-if>
+                    </span>
+                    <span class="certifications-span-38"><span class="certifications-span-39">{{ r.short }}<sc-if
+                          value="{{ r.multi }}" hint-placeholder-val="{{ false }}"><span
+                            class="certifications-span-40">×{{ r.count }}</span></sc-if></span><span
+                        class="certifications-span-41">{{ r.issuer }}</span></span>
+                    <span class="certifications-span-42"
+                      style="color:{{ r.arC }};transform:translateX({{ r.arX }})">→</span>
+                  </button>
+                </sc-for>
+              </div>
+            </sc-for>
+          </div>
+        </div>
+        <div aria-hidden="true" class="certifications-div-34">
+          <div class="certifications-div-35">
+            <sc-for list="{{ certIssuers }}" as="is" hint-placeholder-count="10">
+              <span class="certifications-span-43"><sc-if value="{{ is.hasLogo }}"
+                  hint-placeholder-val="{{ false }}"><span class="certifications-span-44"
+                    style="background:{{ is.logo }} center/contain no-repeat"></span></sc-if>{{ is.name }}<span
+                  class="certifications-span-45"></span></span>
+            </sc-for>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" data-screen-label="Contact" class="contact-section-1">
+        <div class="contact-div-1">
+          <div class="contact-div-2">
+            <div class="contact-div-3">(08) Contact</div>
+            <h2 data-reveal="" class="contact-h2-1">Have an app in mind? <span class="contact-span-1">Start here.</span>
+            </h2>
+          </div>
+          <p class="contact-p-1">Hiring, collaborating or exploring an idea, every message gets a personal reply.</p>
+        </div>
+
+        <div class="contact-div-4">
+          <div class="contact-div-5">
+            <div class="contact-div-6">Direct lines</div>
+            <sc-for list="{{ contactRows }}" as="r" hint-placeholder-count="4">
+              <a href="{{ r.href }}" target="{{ r.target }}" rel="noopener" class="contact-a-1">
+                <span class="contact-span-2"><span role="img" aria-label="{{ r.label }} logo" class="contact-span-3"
+                    style="background:{{ r.logo }} center/contain no-repeat"></span></span>
+                <span class="contact-span-4"><span class="contact-span-5">{{ r.label }}</span><span
+                    class="contact-span-6">{{ r.value }}</span></span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                  stroke-linecap="square">
+                  <path d="M7 7h10v10"></path>
+                  <path d="M7 17 17 7"></path>
+                </svg>
+              </a>
+            </sc-for>
+            <button type="button" onClick="{{ copyEmail }}" class="contact-button-1"><span>{{ copyLabel }}</span><svg
+                width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="square">
+                <path d="M8 8h12v12H8zM4 16V4h12"></path>
+              </svg></button>
+          </div>
+
+          <form onSubmit="{{ submit }}" novalidate="" class="contact-form-1">
+            <div class="contact-div-7">
+              <span class="contact-span-7">I'm reaching out about</span>
+              <div class="contact-div-8">
+                <sc-for list="{{ intents }}" as="it" hint-placeholder-count="4">
+                  <button type="button" onClick="{{ it.pick }}" aria-pressed="{{ it.on }}" class="contact-button-2"
+                    style="background:{{ it.bg }};color:{{ it.fg }};box-shadow:inset 0 0 0 1px {{ it.bd }}">{{ it.label
+                    }}</button>
+                </sc-for>
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-name">Your name</label>
+              <input id="f-name" class="input contact-input-1" value="{{ form.name }}" onChange="{{ onName }}"
+                autocomplete="name">
+              <div class="contact-div-9">{{ errors.name }}</div>
+            </div>
+            <div class="field">
+              <label for="f-email">Work email</label>
+              <input id="f-email" type="email" class="input contact-input-1" value="{{ form.email }}"
+                onChange="{{ onEmail }}" autocomplete="email">
+              <div class="contact-div-9">{{ errors.email }}</div>
+            </div>
+            <div class="field contact-div-10">
+              <label for="f-message">Project or role details</label>
+              <textarea id="f-message" class="input contact-textarea-1" rows="5" placeholder="{{ msgHint }}"
+                value="{{ form.message }}" onChange="{{ onMessage }}"></textarea>
+              <div class="contact-div-9">{{ errors.message }}</div>
+            </div>
+            <div class="contact-div-11">
+              <button type="submit" data-mbtn="fill" class="contact-button-3">
+                <span data-fill="" class="contact-span-8"></span>
+                <span class="contact-span-9">Send message</span>
+                <span class="contact-span-10"><span class="contact-span-11"><span data-arrow="x"
+                      class="contact-span-12"><svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2.4" stroke-linecap="square">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                      </svg><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                        stroke-width="2.4" stroke-linecap="square">
+                        <path d="M5 12h14"></path>
+                        <path d="m12 5 7 7-7 7"></path>
+                      </svg></span></span></span>
+              </button>
+              <span class="contact-span-13">{{ status }}</span>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <svg aria-hidden="true" width="0" height="0" class="dock-svg-1">
+      <filter id="hp-liquid" x="-10%" y="-40%" width="120%" height="180%" color-interpolation-filters="sRGB">
+        <feTurbulence type="fractalNoise" baseFrequency="0.011 0.034" numOctaves="2" seed="7" result="n">
+          <animate attributeName="baseFrequency" dur="14s" values="0.011 0.034;0.014 0.028;0.011 0.034"
+            repeatCount="indefinite"></animate>
+        </feTurbulence>
+        <feGaussianBlur in="n" stdDeviation="2.2" result="nb"></feGaussianBlur>
+        <feDisplacementMap in="SourceGraphic" in2="nb" scale="38" xChannelSelector="R" yChannelSelector="G">
+        </feDisplacementMap>
+      </filter>
+    </svg>
+    <nav aria-label="Quick navigation" onMouseLeave="{{ dockLeave }}" class="dock-nav-1"
+      style="box-shadow:{{ glassOuter }}">
+      <span aria-hidden="true" class="dock-span-1"></span>
+      <span aria-hidden="true" class="dock-span-2"
+        style="background:radial-gradient(120% 140% at 50% -30%,rgba(255,255,255,{{ glassHi }}),rgba(255,255,255,0) 55%),radial-gradient(90% 120% at 50% 140%,rgba(255,255,255,{{ glassLo }}),rgba(255,255,255,0) 60%),{{ glassFill }};box-shadow:inset 0 1.5px 1px rgba(255,255,255,{{ glassRim }}),inset 0 -1.5px 1.5px rgba(255,255,255,{{ glassLo }}),inset 1.5px 0 1px rgba(255,255,255,0.18),inset -1.5px 0 1px rgba(255,255,255,0.18),inset 0 0 16px rgba(255,255,255,0.06),inset 0 -10px 18px -10px rgba(0,0,0,0.08)"></span>
+      <span aria-hidden="true" class="dock-span-3" style="background:{{ glassEdgeBg }}"></span>
+      <span aria-hidden="true" class="dock-span-4"
+        style="background:linear-gradient(180deg,rgba(255,255,255,{{ glassSheen }}),rgba(255,255,255,0))"></span>
+      <span aria-hidden="true" class="dock-span-5"></span>
+      <a href="{{ dock.home.href }}" aria-label="{{ dock.home.label }}" onMouseEnter="{{ dock.home.enter }}"
+        class="dock-a-1"
+        style="color:{{ dock.home.fg }};background:{{ dock.home.bg }};box-shadow:{{ dock.home.sh }};transform:{{ dock.home.tf }}">
+        <span class="dock-span-6"
+          style="background:linear-gradient(180deg,rgba(255,255,255,0.32),rgba(255,255,255,0.1)),{{ tipBg }};color:{{ tipFg }};opacity:{{ dock.home.tip }}">{{
+          dock.home.label }}</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
+          <path
+            d="M3 10a2 2 0 0 1 .709-1.528l7-5.999a2 2 0 0 1 2.582 0l7 5.999A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z">
+          </path>
+        </svg>
+        <span class="dock-span-7" style="opacity:{{ dock.home.dotOp }}"></span>
+      </a>
+      <a href="{{ dock.about.href }}" aria-label="{{ dock.about.label }}" onMouseEnter="{{ dock.about.enter }}"
+        class="dock-a-1"
+        style="color:{{ dock.about.fg }};background:{{ dock.about.bg }};box-shadow:{{ dock.about.sh }};transform:{{ dock.about.tf }}">
+        <span class="dock-span-6"
+          style="background:linear-gradient(180deg,rgba(255,255,255,0.32),rgba(255,255,255,0.1)),{{ tipBg }};color:{{ tipFg }};opacity:{{ dock.about.tip }}">{{
+          dock.about.label }}</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="8" r="5"></circle>
+          <path d="M20 21a8 8 0 0 0-16 0"></path>
+        </svg>
+        <span class="dock-span-7" style="opacity:{{ dock.about.dotOp }}"></span>
+      </a>
+      <a href="{{ dock.experience.href }}" aria-label="{{ dock.experience.label }}"
+        onMouseEnter="{{ dock.experience.enter }}" class="dock-a-1"
+        style="color:{{ dock.experience.fg }};background:{{ dock.experience.bg }};box-shadow:{{ dock.experience.sh }};transform:{{ dock.experience.tf }}">
+        <span class="dock-span-6"
+          style="background:linear-gradient(180deg,rgba(255,255,255,0.32),rgba(255,255,255,0.1)),{{ tipBg }};color:{{ tipFg }};opacity:{{ dock.experience.tip }}">{{
+          dock.experience.label }}</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M16 20V4a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+          <rect width="20" height="14" x="2" y="6" rx="2"></rect>
+        </svg>
+        <span class="dock-span-7" style="opacity:{{ dock.experience.dotOp }}"></span>
+      </a>
+      <a href="{{ dock.work.href }}" aria-label="{{ dock.work.label }}" onMouseEnter="{{ dock.work.enter }}"
+        class="dock-a-1"
+        style="color:{{ dock.work.fg }};background:{{ dock.work.bg }};box-shadow:{{ dock.work.sh }};transform:{{ dock.work.tf }}">
+        <span class="dock-span-6"
+          style="background:linear-gradient(180deg,rgba(255,255,255,0.32),rgba(255,255,255,0.1)),{{ tipBg }};color:{{ tipFg }};opacity:{{ dock.work.tip }}">{{
+          dock.work.label }}</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M20 20a2 2 0 0 0 2-2V8a2 2 0 0 0-2-2h-7.9a2 2 0 0 1-1.69-.9L9.6 3.9A2 2 0 0 0 7.930 3H4a2 2 0 0 0-2 2v13a2 2 0 0 0 2 2Z">
+          </path>
+          <path d="m10 16 2-2 2 2"></path>
+        </svg>
+        <span class="dock-span-7" style="opacity:{{ dock.work.dotOp }}"></span>
+      </a>
+      <a href="{{ dock.skills.href }}" aria-label="{{ dock.skills.label }}" onMouseEnter="{{ dock.skills.enter }}"
+        class="dock-a-1"
+        style="color:{{ dock.skills.fg }};background:{{ dock.skills.bg }};box-shadow:{{ dock.skills.sh }};transform:{{ dock.skills.tf }}">
+        <span class="dock-span-6"
+          style="background:linear-gradient(180deg,rgba(255,255,255,0.32),rgba(255,255,255,0.1)),{{ tipBg }};color:{{ tipFg }};opacity:{{ dock.skills.tip }}">{{
+          dock.skills.label }}</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="m16 18 6-6-6-6"></path>
+          <path d="m8 6-6 6 6 6"></path>
+        </svg>
+        <span class="dock-span-7" style="opacity:{{ dock.skills.dotOp }}"></span>
+      </a>
+      <a href="{{ dock.services.href }}" aria-label="{{ dock.services.label }}" onMouseEnter="{{ dock.services.enter }}"
+        class="dock-a-1"
+        style="color:{{ dock.services.fg }};background:{{ dock.services.bg }};box-shadow:{{ dock.services.sh }};transform:{{ dock.services.tf }}">
+        <span class="dock-span-6"
+          style="background:linear-gradient(180deg,rgba(255,255,255,0.32),rgba(255,255,255,0.1)),{{ tipBg }};color:{{ tipFg }};opacity:{{ dock.services.tip }}">{{
+          dock.services.label }}</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+        <span class="dock-span-7" style="opacity:{{ dock.services.dotOp }}"></span>
+      </a>
+      <a href="{{ dock.education.href }}" aria-label="{{ dock.education.label }}"
+        onMouseEnter="{{ dock.education.enter }}" class="dock-a-1"
+        style="color:{{ dock.education.fg }};background:{{ dock.education.bg }};box-shadow:{{ dock.education.sh }};transform:{{ dock.education.tf }}">
+        <span class="dock-span-6"
+          style="background:linear-gradient(180deg,rgba(255,255,255,0.32),rgba(255,255,255,0.1)),{{ tipBg }};color:{{ tipFg }};opacity:{{ dock.education.tip }}">{{
+          dock.education.label }}</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M21.42 10.922a1 1 0 0 0-.019-1.838L12.83 5.18a2 2 0 0 0-1.66 0L2.6 9.08a1 1 0 0 0 0 1.832l8.57 3.908a2 2 0 0 0 1.66 0z">
+          </path>
+          <path d="M22 10v6"></path>
+          <path d="M6 12.5V16a6 3 0 0 0 12 0v-3.5"></path>
+        </svg>
+        <span class="dock-span-7" style="opacity:{{ dock.education.dotOp }}"></span>
+      </a>
+      <a href="{{ dock.contact.href }}" aria-label="{{ dock.contact.label }}" onMouseEnter="{{ dock.contact.enter }}"
+        class="dock-a-1"
+        style="color:{{ dock.contact.fg }};background:{{ dock.contact.bg }};box-shadow:{{ dock.contact.sh }};transform:{{ dock.contact.tf }}">
+        <span class="dock-span-6"
+          style="background:linear-gradient(180deg,rgba(255,255,255,0.32),rgba(255,255,255,0.1)),{{ tipBg }};color:{{ tipFg }};opacity:{{ dock.contact.tip }}">{{
+          dock.contact.label }}</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+          stroke-linecap="round" stroke-linejoin="round">
+          <path
+            d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z">
+          </path>
+          <path d="m21.854 2.147-10.94 10.939"></path>
+        </svg>
+        <span class="dock-span-7" style="opacity:{{ dock.contact.dotOp }}"></span>
+      </a>
+      <span aria-hidden="true" class="dock-span-8"
+        style="background:linear-gradient(180deg,transparent,{{ dkDiv }},transparent)"></span>
+      <button type="button" onClick="{{ toggleTheme }}" onMouseEnter="{{ dock.theme.enter }}"
+        aria-label="{{ dock.theme.label }}" class="dock-button-1"
+        style="color:{{ dkInk }};background:{{ dock.theme.bg }};box-shadow:{{ dock.theme.sh }};transform:{{ dock.theme.tf }}">
+        <span class="dock-span-6"
+          style="background:linear-gradient(180deg,rgba(255,255,255,0.32),rgba(255,255,255,0.1)),{{ tipBg }};color:{{ tipFg }};opacity:{{ dock.theme.tip }}">{{
+          dock.theme.label }}</span>
+        <sc-if value="{{ isDark }}" hint-placeholder-val="{{ false }}"><svg width="18" height="18" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path
+              d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41">
+            </path>
+          </svg></sc-if>
+        <sc-if value="{{ isLight }}" hint-placeholder-val="{{ true }}"><svg width="18" height="18" viewBox="0 0 24 24"
+            fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"></path>
+          </svg></sc-if>
+      </button>
+    </nav>
+
+    <footer data-screen-label="Footer" class="footer-footer-1">
+      <div class="footer-div-1">
+        <p class="footer-p-1">Good software is quiet. It simply <span class="footer-span-1">works.</span></p>
+        <div class="footer-div-2">
+          <span class="footer-span-2">Currently accepting new Android projects and full-time opportunities.</span>
+          <a href="#contact" class="footer-a-1">Begin a conversation <svg width="18" height="18" viewBox="0 0 24 24"
+              fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="square">
+              <path d="M7 7h10v10"></path>
+              <path d="M7 17 17 7"></path>
+            </svg></a>
+        </div>
+      </div>
+      <div class="footer-div-3">
+        <div class="footer-div-4">
+          <span class="footer-span-3">Discipline</span>
+          <span class="footer-span-4">Native Android engineering in Kotlin and Jetpack Compose.</span>
+        </div>
+        <div class="footer-div-5">
+          <span class="footer-span-5">Index</span>
+          <sc-for list="{{ navLinks }}" as="l" hint-placeholder-count="5">
+            <a href="{{ l.href }}" class="footer-a-2">{{ l.label }}</a>
+          </sc-for>
+        </div>
+        <div class="footer-div-5">
+          <span class="footer-span-5">Correspondence</span>
+          <a href="mailto:harshbpatel0909@gmail.com" class="footer-a-3">harshbpatel0909@gmail.com</a>
+          <a href="tel:+14168414081" class="footer-a-2">416-841-4081</a>
+        </div>
+        <div class="footer-div-5">
+          <span class="footer-span-5">Profiles</span>
+          <sc-for list="{{ socials }}" as="s" hint-placeholder-count="3">
+            <a href="{{ s.href }}" target="_blank" rel="noopener" class="footer-a-4">{{ s.label }} ↗</a>
+          </sc-for>
+        </div>
+      </div>
+      <div class="footer-div-6">
+        <span class="footer-span-6"><span class="footer-span-7"><svg viewBox="0 0 36 48" width="18" height="24"
+              aria-hidden="true" class="footer-svg-1">
+              <defs>
+                <linearGradient id="hl2a" x1="0" y1="0" x2="0.4" y2="1">
+                  <stop offset="0" stop-color="#c7c9ff"></stop>
+                  <stop offset="1" stop-color="#8f94ff"></stop>
+                </linearGradient>
+                <linearGradient id="hl2m" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0" stop-color="#ffb36b"></stop>
+                  <stop offset="1" stop-color="#ff5d5d"></stop>
+                </linearGradient>
+                <linearGradient id="hl2t" x1="0" y1="0" x2="0.3" y2="1">
+                  <stop offset="0" stop-color="#8f7dff"></stop>
+                  <stop offset="1" stop-color="#6a5cff"></stop>
+                </linearGradient>
+                <linearGradient id="hl2r" x1="0" y1="0" x2="0.3" y2="1">
+                  <stop offset="0" stop-color="#ff4d2e"></stop>
+                  <stop offset="1" stop-color="#c41e3a"></stop>
+                </linearGradient>
+                <linearGradient id="hl2s" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0" stop-color="#fff" stop-opacity="0.28"></stop>
+                  <stop offset="0.5" stop-color="#fff" stop-opacity="0"></stop>
+                </linearGradient>
+              </defs>
+              <path d="M0 4 10 8v40L0 44z" fill="url(#hl2a)"></path>
+              <path d="M13 17.2 23 21.2v12.6L13 29.8z" fill="url(#hl2m)"></path>
+              <path d="M26 0 36 4v18.4L26 18.4z" fill="url(#hl2t)"></path>
+              <path d="M26 18.4 36 22.4V44L26 40z" fill="url(#hl2r)"></path>
+              <path d="M0 4 10 8v40L0 44zM26 0 36 4V44L26 40z" fill="url(#hl2s)" class="footer-path-1"></path>
+            </svg></span><span class="footer-span-8"></span>© MMXXVI · All rights reserved</span>
+        <a href="#top" class="footer-a-5">Back to top <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2.2" stroke-linecap="square">
+            <path d="M12 19V5"></path>
+            <path d="m5 12 7-7 7 7"></path>
+          </svg></a>
+      </div>
+    </footer>
+
+    {{ cursor }}
+  </x-dc>
+  <script type="text/x-dc" data-dc-script
+    data-props="{&quot;showMarquee&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Motion&quot;},&quot;showCursor&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Motion&quot;}}">
+var Component = window.createPortfolioComponent(DCLogic, React);
+</script>
+</body>
+
+</html>
